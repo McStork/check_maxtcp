@@ -35,7 +35,7 @@ end
 puts sockets.size().to_s + " sockets created."
 
 #remove quotes to DOS for a period of time
-#puts "Going to sleep for " + sleep.to_s + " seconds."
+#puts "Going to sleep for " + idle_time.to_s + " seconds."
 #sleep(idle_time)
 
 sockets.each do |socket|
